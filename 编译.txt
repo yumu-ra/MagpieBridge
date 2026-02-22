@@ -1,0 +1,2 @@
+gcc -o c2py.o -I D:\Application\Python3.12\include -c ./c2py.c
+ar rcs libc2py.a c2py.o
